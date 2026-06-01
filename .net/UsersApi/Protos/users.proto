@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-option csharp_namespace = "Users.Client";
+option csharp_namespace = "UsersApi";
 
 package users;
 

@@ -4,9 +4,7 @@ namespace Users.Server.Services
 {
     public class UserGrpcService : UserService.UserServiceBase
     {
-        public override Task<UserResponse> GetById(
-            GetUserByIdRequest request,
-            ServerCallContext context)
+        public override Task<UserResponse> GetById(GetUserByIdRequest request, ServerCallContext context)
         {
             return Task.FromResult(new UserResponse
             {
@@ -20,9 +18,7 @@ namespace Users.Server.Services
             });
         }
 
-        public override Task<GetAllUsersResponse> GetAll(
-            GetAllUsersRequest request,
-            ServerCallContext context)
+        public override Task<GetAllUsersResponse> GetAll(GetAllUsersRequest request, ServerCallContext context)
         {
             var response = new GetAllUsersResponse();
 
@@ -37,9 +33,7 @@ namespace Users.Server.Services
             return Task.FromResult(response);
         }
 
-        public override Task<UserResponse> Create(
-            CreateUserRequest request,
-            ServerCallContext context)
+        public override Task<UserResponse> Create(CreateUserRequest request, ServerCallContext context)
         {
             return Task.FromResult(new UserResponse
             {

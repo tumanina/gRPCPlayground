@@ -1,5 +1,5 @@
 using Grpc.Net.Client;
-using Users.Client;
+using Users.ClientConsole;
 
 var channel = GrpcChannel.ForAddress("https://localhost:7085");
 

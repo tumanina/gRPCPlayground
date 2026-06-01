@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="Users.ClientConsole/Users.ClientConsole.csproj" Id="a8330785-dad8-4bdb-918f-5f2db38bc01e" />
+  <Project Path="Users.Server/Users.Server.csproj" />
+  <Project Path="UsersApi/UsersApi.csproj" Id="c3491296-1f37-4b24-9ec3-fbbb9d1026c8" />
+</Solution>
